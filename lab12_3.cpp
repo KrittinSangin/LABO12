@@ -15,3 +15,10 @@ int main(){
 	
 	return 0;
 }
+
+void mySwap(int &num1, int&num2){
+	int temporarynum = num1;
+	num1 = num2;
+	num2 = temporarynum;
+	
+}
